@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif; /* Fix font-family declaration */
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #eae8e8;
+}
+
+.container {
+    width: 380px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0,0,0.2);
+}
+
+.container .title {
+    line-height: 72px;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    border-radius: 15px 15px 0 0; /* Simplified border-radius */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+form {
+    padding: 15px 50px 50px 30px; /* Adjusted padding */
+    height: 100%;
+}
+
+.field {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.field input {
+    padding-left: 20px;
+    border: 1px grey solid;
+    border-radius: 30px;
+    height: 100%;
+    display: block;
+    width: 100%;
+    outline: none;
+}
+
+.field label {
+    position: absolute;
+    top: 50%;
+    font-size: 15px;
+    transform: translateY(-50%);
+    left: 20px;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+
+.field input:valid,.field input:focus {
+    border-color: #4158d0;
+}
+
+
+.field input:focus ~ label,
+.field input:valid ~ label {
+    top: 0;
+    background-color: white;
+    color: #4158d0; /* Change label color when focused/valid */
+}
+
+.field .submit-box {
+    margin-top: 15px;
+    width: 106%;
+    height: 100%;
+    background: linear-gradient(-135deg, #4158d0, #c850c0);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+
+.forget-password{
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(72, 72, 237);
+    
+}
+
+.forget-password:hover{
+    text-decoration: underline;
+    color: rgb(72, 72, 237);
+
+}
+
+.text{
+    font-size: 15px;
+    text-align: center;
+}
+
+.text a{
+    color: rgb(72, 72, 237);
+}
+
+.text a:hover{
+    text-decoration: underline;
+
+}
