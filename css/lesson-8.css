@@ -1,0 +1,111 @@
+.first-name{
+    width: 150px;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 15px;
+    border-style: solid;
+    margin: 5px;
+    vertical-align: right;
+}
+
+.last-name{
+    width: 150px;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 15px;
+    border-style: solid;
+}
+
+.email{
+    
+    margin: 5px;
+    margin-top: 3px;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 15px;
+    border-style: solid;
+    width: 327px;
+    display: block;
+
+}
+
+.sign-up{
+    margin: 5px;
+    padding: 10px;
+    width: 345px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #1d9bf0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    transition: background-color 0.12s;
+    margin-bottom: 100px;
+}
+
+.sign-up:hover{
+    background-color: #0482d5;
+    cursor: pointer;
+}
+
+.ride{
+    margin-left: 10px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pickup{
+    margin: 10px;
+    margin-bottom: 6px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(239, 239, 239, 0.951);
+    width: 350px;
+    font-family: Arial;
+    display: block;
+}
+
+.destination{
+    margin: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(239, 239, 239, 0.951);
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.request-now{
+    vertical-align: middle;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 150px;
+    transition: opacity 0.12s;
+}
+
+.request-now:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.schedule{
+    vertical-align: middle;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    width: 160px;
+    font-size: 15px;
+    font-family: Arial;
+    transition: opacity 0.12s;
+}
+
+.schedule:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}

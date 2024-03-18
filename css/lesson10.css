@@ -1,0 +1,72 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+
+}
+
+.profile{
+    margin-left: 20px;
+    width: 200px;
+    border: 1px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3); 
+    border-radius: 4px;
+    vertical-align: top;
+
+}
+
+.pfp{
+    width: 200px;
+
+}
+
+.name{
+    margin-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.friends-row{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.pfp1{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+.friends{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.button{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color:#1786d0 ;
+    color: white;
+    font-size: 15px;
+    transition: opacity 0.25s;
+}
+
+.button:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}

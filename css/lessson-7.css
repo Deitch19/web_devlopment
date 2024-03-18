@@ -1,0 +1,190 @@
+.search-box{
+    border-radius: 4px;
+    border-color: gray;
+    border-style: solid;
+    font-size: 20px;
+    width: 200px;
+}
+
+.google-box{
+    padding: 6px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    width: 30%;
+    font-size: 18px;
+    box-shadow: 0px 2px 4px rgba(0, 0,0,0.1);
+
+}
+
+.email{
+    margin-left: 35px;
+    font-size: 14px;
+    font-family: Arial;
+    margin-bottom: 0px;
+    margin-bottom: 2px;
+    color: rgb(100, 97, 97);
+}
+
+.email-box{
+    margin-left: 35px;
+    width: 20%;
+    height: 20px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: gray;
+    margin-bottom: 0px;
+    
+
+}
+
+.policy{
+    
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 15px;
+    color: gray;
+}
+
+.join{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-left: 60px;
+    border-radius: 19px;
+    border: none;
+    background-color: #0754d0;
+    height: 32px;
+    width: 200px;
+    transition: background-color 0.2s;
+}
+
+.join:hover{
+    background-color: #0e449b ;
+    cursor: pointer;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+
+    
+}
+
+.tweet{
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 17px;
+    width: 30%;
+    border: none;
+    font: Arial;
+    color: grey;
+}
+
+.tweet-button{
+    vertical-align: center;
+    width: 90px;
+    height: 32px;
+    background-color:#1d9bf0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 17px;
+    transition: background-color 0.2s;
+}
+
+.tweet-button:hover{
+    cursor: pointer;
+    background-color:#0488e0;
+}
+
+.g-logo{
+    text-align: center;
+}
+
+.google-logo{
+    width: 250px;
+    
+}
+
+.g-box{
+    text-align: center;
+}
+
+.google-box1{
+    margin-top: 20px;
+    padding: 6px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    width: 40%;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0,0,0.2);
+
+}
+
+.google-button{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.g-search{
+    padding: 12px;
+    border: none;
+    font-size: 16px
+}
+
+.g-search:hover{
+    cursor: pointer;
+}
+
+.g-lucky{
+    margin-left: 15px;
+    padding: 12px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.g-lucky:hover{
+    cursor: pointer;
+}
+
+
+.block-name{
+    display: block;
+    margin: 20px;
+    margin-bottom: 10px;
+
+}
+
+.block-email{
+    display: block;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.inline-para{
+    margin-top: 30px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.yes-button{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.no-button{
+    vertical-align: middle;
+
+}

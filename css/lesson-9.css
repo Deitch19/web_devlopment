@@ -1,0 +1,246 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.square{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.circle{
+    margin-left: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 100px;
+}
+
+.service{
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px;
+    border: 1px;
+    color: grey;
+    border-style: solid;
+
+}
+
+
+.yt{
+    background-color: rgb(43, 40, 40);
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left: 20px;
+    width:350px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.install{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.cat{
+    padding: 10px;
+    margin: 20px;
+    border: 1px;
+    border-radius: 5px;
+    width: 500px;
+    border-color: rgb(231, 229, 229) ;
+    border-style: solid;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+
+.cat-img{
+    vertical-align: middle;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius:50px;
+    object-fit: cover;
+    object-position: center;
+    
+
+}
+
+.para1{
+    margin: 5px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 280px;
+    color: grey;
+    border: none;
+    font-size: 17px;
+    
+}
+
+.tweet{
+    vertical-align: middle;
+    padding: 8px;
+    width: 120px;
+    background-color: #1d9bf0;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s;
+}
+
+.tweet:hover{
+    cursor: pointer;
+    background-color: #107ac1;
+}
+
+.johan{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 175px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+
+}
+
+.j-img{
+    width: 175px;
+}
+
+.j-name{
+    padding-left: 7px;
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.j-mutual{
+    padding-left: 7px;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+}
+
+.j-button{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color:#1786d0 ;
+    color: white;
+    font-size: 15px;
+    transition: opacity 0.25s;
+}
+
+.j-button:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.lelouch{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 175px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+
+}
+
+.l-img{
+    width: 175px;
+}
+
+.l-name{
+    padding-left: 7px;
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.l-mutual{
+    padding-left: 7px;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+}
+
+.l-button{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color:#1786d0 ;
+    color: white;
+    font-size: 15px;
+    transition: opacity 0.25s;
+}
+
+.l-button:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.aizen{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 175px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+
+}
+
+.a-img{
+    width: 175px;
+}
+
+.a-name{
+    padding-left: 7px;
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.a-mutual{
+    padding-left: 7px;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+}
+
+.a-button{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color:#1786d0 ;
+    color: white;
+    font-size: 15px;
+    transition: opacity 0.25s;
+}
+
+.a-button:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}

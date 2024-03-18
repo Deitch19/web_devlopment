@@ -1,0 +1,155 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mail{
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 400px;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.18);
+    border-color: rgb(206, 204, 204);
+    border-radius: 2px;
+    padding: 6px 10px 8px 10px;
+
+}
+.inbox{
+    
+    font-size:13px;
+    color: grey;
+    margin-bottom:22px ;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 23px;
+
+}
+
+.logo{
+    height: 50px;
+    border-radius: 25px;
+    justify-content: center;
+    object-fit: contain;
+    margin-right:13px ;
+}
+
+.nested-flex{
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.time{
+    
+    font-size: 12px;
+    color: grey;
+}
+
+.exp{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 3px ;
+}
+
+.det{
+    font-size:13px;
+    color: rgb(92, 91, 91);
+}
+
+
+.tweet{
+    margin-top: 40px;
+    display: flex;
+    width: 450px;
+ 
+
+}
+
+.logo1{
+    height: 40px;
+
+}
+
+.tweet-column{
+flex: 1;
+    
+
+}
+
+.tweet-header{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.profile-name{
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.profile-name1{
+    color: rgb(83, 83, 83);
+
+}
+
+.tweet-details{
+    margin-bottom: 15px;
+}
+
+.youtube-template{
+    display: flex;
+    flex-direction: rows;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(195, 194, 194);
+    border-radius: 10px;
+    overflow: hidden;
+
+
+
+}
+
+.youtube{
+    width: 120px;
+    height: 90px;
+    background-color: rgb(209, 208, 208);
+    border: 1px;
+ 
+
+}
+
+.yt-det{
+ display: flex;
+ flex-direction: column;
+ margin-left: 10px;
+ justify-content: center;
+ 
+
+}
+
+.yt{
+    font-size: 15px;
+    color: grey;
+}
+
+.yt-des{
+    font-size: 15px;
+    width: 210px;
+}
+
+
