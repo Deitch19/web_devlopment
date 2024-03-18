@@ -1,0 +1,43 @@
+
+.offer-label{
+         font-family: Arial, Helvetica, sans-serif;
+         position: absolute;
+         background-color: black;
+         color: white;
+         padding:14px;
+         font-size: 20px;
+         top: 10px;
+         right: 0px; 
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.shirt{
+    height: 400px;
+}
+
+.opacity{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: rgba(255, 255,255,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-cart{
+    padding:12px 20px 12px 20px ;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.add-cart:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+body{
+    padding-left:350px ;
+}
+
+.side-bar {
+    position: fixed;
+    background-color: rgb(33, 33, 33);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+}
+
+
+.logo{
+    margin-top: 10px;
+    margin-left: 12px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 30px;
+}
+
+.side-bar2{
+    background-color: rgb(55, 55, 55);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.info-tab{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.plus-sign{
+    font-size: 25px;
+    color: rgb(150, 150, 150);
+}
+
+.text{
+    color: rgb(150, 150, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
