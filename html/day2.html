@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables and Forms.</title>
+</head>
+<body>
+
+ <!-- unordered list --> 
+ <ul>
+ 	<li>first item</li>
+ 	<li>second item</li>
+ 	<li>third item</li>
+ 	<li>fourth item</li>
+ </ul>
+
+ <!-- ordered list --> 
+
+ <ol>
+ 	<li>first item.</li>
+ 	<li>second item.</li>
+ 	<li>third item.</li>
+ 	<li>fourth item.</li>
+ </ol>
+
+<!-- tables -->
+
+<table>
+       <thead>                           <!--thead = table head -->
+       	    <tr>                         <!--tr = table row -->
+       	    	<th>name</th>            <!--th= table heading --> 
+       	    	<th>age</th>
+       	    	<th>email</th>
+       	    </tr>
+       </thead>
+
+
+       <tbody> 
+       	     <tr>
+       	     	<td>amar</td>           <!--td = table data -->
+       	     	<td>19</td>
+       	     	<td>amar123@gmail.com</td>
+       	     </tr>
+
+       	     <tr>
+       	     	<td>yash</td>
+       	     	<td>19</td>
+       	     	<td>yash123@gmail.com</td>
+       	     </tr>
+
+       	     <tr>
+       	     	<td>avi</td>
+       	     	<td>19</td>
+       	     	<td>avi123@gmail.com</td>
+       	     </tr>
+       </tbody>	
+
+</table>
+
+<br>
+<hr>
+
+<!--forms -->
+<form action="data.php" method="POST">        <!--action means where the data is going to be sent -->        <!--method means the type of method how the data will be stored -->          
+	<div>
+       <label>FIRST NAME</label>
+       <input type="text" name="FirstName" placeholder="enter first name">        <!--input means what type of data type you are using -->
+    </div>
+
+
+    <div>
+       <label>LAST NAME</label>
+       <input type="text" name="lastName" placeholder="enter last name">     <!--name means the name of the element in the server where the data will be stored -->
+    </div>  
+
+
+    <div> 
+       <label>EMAIL</label>
+       <input type="email" name="Email" placeholder="xyz@gmail.com">     <!--place holder means a fading input in the forms section where we have to fill-->
+    </div> 
+
+
+    <div> 
+       <label>AGE</label>
+       <input type="number" name="AGE" value="19">       <!--value means the value that is already given in the form-->
+    </div>  
+
+
+     <div> 
+       <label>birthday</label>
+        <input type="date" name="birthday">
+    </div>  
+
+
+
+    <div> 
+       <label>message</label>
+       <textarea name="message"></textarea>    <!--text area creates an area for text-->
+    </div>  
+
+
+    <div>
+       <label>gender</label>
+       <select name="gender">
+
+            	<option value="male">Male</option>
+            	<option value="female">female</option>
+       	        <option value="other">other</option>
+       	
+       </select>
+    </div>  
+
+    <input type="submit" name="submit" value="Submit">
+
+   
+</form>
+
+<button>click me</button>              <!--it creates a button but it will be not functional -->
+
+<br>
+<hr>
+
+<a href="E:\web d\img\R.jpg">                <!-- adding images properly -->
+	  <img src="E:\web d\img\R.jpg" height="400" alt="my dav image">
+</a>
+
+
+</body>
+</html>
