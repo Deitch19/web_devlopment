@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+body{
+    margin-top: 70px;
+}
+a{
+    text-decoration: none;
+}
+
+
+.navigation-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    color: white;
+    background-color: rgba(0,0,0,1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+
+.navigation-bar .name{
+
+    margin-left: 100px;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.navigation-bar .nav-bar{
+    display: flex;
+    margin-right: 100px;
+
+}
+
+.nav-bar li {
+    float: left;
+    list-style-type: none;
+}
+
+.nav-bar .ok1{
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    float: left;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+
+.nav-bar .ok1:hover{
+background-color: white;
+border-radius: 5px;
+color: black;
+}
+
+
+
+.background{
+    background-image: url(img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.background .heading{
+    color: white;
+    font-weight: 500;
+    font-size: 72px;
+    width: 100%;
+    text-align: center;
+}
+
+.background .sub-heading
+{
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-size:50px ;
+}
+
+.author{
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    font-size:36px ;
+}
+
+.details{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button{
+    margin-top: 30px;
+    padding: 20px 40px;
+    border: 1px white solid;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 30px;
+    border-radius: 5px;
+    
+}
+
+.btn1{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 3px white solid;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    cursor: pointer;
+}
+
+@media (max-width:1000px){
+    .navigation-bar .name{
+        margin-left: 10px;
+        font-size: 25px;
+        
+    }
+    
+    .navigation-bar .nav-bar{
+        margin-right: 10px;
+    
+    }
+    
+}
+
+@media (min-width:600px) and (max-width:750px){
+    .navigation-bar .name{
+        margin-left: 10px;
+        font-size: 25px;
+        
+    }
+    
+    .navigation-bar .nav-bar{
+        margin-right: 10px;
+    
+    }
+
+    .nav-bar .ok1{
+        margin-right: 5px;
+        font-size: 15px;
+        padding: 2px 10px;
+        float: left;
+        font-weight: 500;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    
+    }
+    
+}
+
+
+@media(max-width:600px){
+    .navigation-bar .name{
+        margin-left: 10px;
+        font-size: 25px;
+        
+    }
+    
+    .navigation-bar .nav-bar{
+        margin-right: 10px;
+    
+    }
+
+    .nav-bar .ok1{
+        margin-right: 5px;
+        font-size: 15px;
+        padding: 2px 10px;
+        float: left;
+        font-weight: 500;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    
+    }
+
+    .background .heading{
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .background .sub-heading
+    {
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        font-size:30px ;
+    }
+    
+    .author{
+        font-weight: 500;
+        text-align: center;
+        color: white;
+        font-size:25px ;
+    }
+
+    .buttons button{
+        margin-top: 30px;
+        padding: 10px 20px;
+        border: 1px white solid;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 30px;
+        border-radius: 5px;
+        
+    }
+    
+    
+    
+}
+
+    @media (min-width: 350px) and (max-width: 600px) {
+        .navigation-bar .nav-bar {
+            display: none; /* Hide the nav bar */
+        }
+
+    }
+
+
+
+@media(max-width: 350px) {
+    .navigation-bar {
+        display: none;
+    }
+
+
+    body{
+        margin-top: 0;
+    }
+
+    .buttons button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 10px 20px;
+        border: 1px white solid;
+        font-size: 18px;
+        font-weight: 500;
+        margin-right: 30px;
+        border-radius: 5px;
+        
+    }
+    
+
+
+}
+
+
+

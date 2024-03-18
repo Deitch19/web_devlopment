@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins" , sans-serif;
+    color: white;
+}
+
+.card-container{
+    position: relative;
+    height: 300px;
+    width: 450px;
+}
+
+.card-container .logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 35px;
+
+}
+
+.upper-section{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    top: 0;
+}
+
+.left , right{
+    display: flex;
+    align-items: center;
+}
+
+.logo1 , .chip{
+    height: 45px;
+    margin-right: 20px;
+}
+
+.chip{
+    margin-left: 100px;
+
+    
+}
+
+.master-card{
+    margin-right: 5px;
+   white-space: nowrap;
+   font-size: 20px;
+}
+
+
+.section-down{
+    position: absolute;
+    top: 100px;
+}
+
+.lower-section{
+    padding-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-number{
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.number {
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    word-spacing: 4px;
+
+}
+
+.details{
+    position: absolute;
+    top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    
+}
+
+.dates{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    white-space: nowrap;
+    
+}
+
+.date{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    
+
+}
+
+
+.date-time{
+    margin: 0;
+    margin-top: 5px;
+}
+
+
+.name{
+    margin-right: 5px;
+    padding-left: 20px;
+}

@@ -19,19 +19,48 @@ body{
 
 .searchbar-container{
     /* border: 1px black solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 400px;
+    /* background-color: red; */
+
 }
 
-input{
-    padding: 10px 20px;
+
+.searchbar-container .search-input input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    bottom: 0;
     border: none;
+    border-radius: 25px;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.icon{
+    position: absolute;
+    top: 0;
+    right: -2px;
+    height: 100%;
+    width: 15%;
+    background-color: #f4615a;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 12px 20px;
 }
 
 i{
-    padding: 12px;
-    border: none;
-    background-color: #f4615a;
-
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
 }
+
+
+/* 
+#check:checked .searchbar-container{
+    max-width: 10px;
+
+} */
